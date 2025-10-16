@@ -74,13 +74,19 @@ int main()
 	cout << "podaj dwie liczby calkowite " << endl;   
     cin >> a >> b;
     if (a > b) {
-
+		cout << "liczby podzielne przez 3 w przedziale od " << b << " do " << a << " to: " << endl;
+       for(int i =b; i <= a; i++)
+           if(i%3==0)
+			   cout << i << endl;
    }
     else if (b > a) {
-
+		cout << "liczby podzielne przez 3 w przedziale od " << a << " do " << b << " to: " << endl;
+        for (int i = a; i <= b; i++)
+            if (i % 3 == 0)
+                cout << i <<  endl;
     }
     else if (a == b){
-
+        cout << "liczby sa rowne";
     }
 /*	int n = 0;                       //zad 12.
     cin >> n;
