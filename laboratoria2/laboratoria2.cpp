@@ -21,21 +21,23 @@ int main()
     //for (int i = 10; i >= 0; i--) {
      //   cout << i << endl;
     //}
-    //zad 3 do zrobienia 
-     /*  int fahr, celsius; //zmienne typu int 
-        int start, limit, krok; //zmienne typu int 
+   
+ /*    int fahr, celsius;                     //zad 3/5/6
+        int start, limit, krok; 
+        start = 0; 
+        cout << "Podaj limit \n";
+        cin >> limit;
+        cout << "Podaj krok\n";
+        cin >> krok; 
 
-        start = 0; //przypisz 0 do start 
-        limit = 200; //przypisz 200 do limit 
-        krok = 20; //przypisz 20 do krok 
+        fahr = start; 
+        for (fahr = start; fahr <= limit; fahr = fahr + krok) {
+            celsius = 5 * (fahr - 32) / 9;
+            cout << fahr << "\t" << celsius << endl;
+        }*/
 
-        fahr = start; //przypisz wartosc start do zmiennej fahr, czyli fahr = 0 
-        while (fahr <= limit) { //wykonuj petle dopoki wartosc fahr jest <= od zmiennej limit 
-            celsius = 5 * (fahr - 32) / 9; //oblicz stopnie C i przypisz wynik do celsius 
-            cout << fahr << "\t" << celsius << endl; //wypisz zmienne na ekran
-            fahr = fahr + krok; //zwieksz wartosc zmiennej fahr o wartosc zmiennej krok
-     }
-    */
+    
+    
    /* for (int i = 0; i<10; i++) {                      //zad 7.
         int liczba;
         cout << "podaj liczbe rzeczywista ";
