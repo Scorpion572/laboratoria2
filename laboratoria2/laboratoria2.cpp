@@ -70,7 +70,7 @@ int main()
     }
 	cout << "jest " << licznik << " liczb podzielnych bez reszty przez " << n << " w przedziale od 0 do 100" << endl;
 */
-	int a, b; 									 //zad 11.  
+/*	int a, b; 									 //zad 11.  
 	cout << "podaj dwie liczby calkowite " << endl;   
     cin >> a >> b;
     if (a > b) {
@@ -87,7 +87,7 @@ int main()
     }
     else if (a == b){
         cout << "liczby sa rowne";
-    }
+    }*/
 /*	int n = 0;                       //zad 12.
     cin >> n;
     int b = n;
@@ -115,6 +115,28 @@ int main()
         cout << "najwieksza liczba to " << c << endl;
     }*/
 
+/*int n, m;                                             //zad 15.
+cout << "Podaj liczbe cyfr ktore chcesz wylosowac\n";
+cin >>  n;
+cout << "Podaj maksymalna mozliwa do wylosowania wartosc  ";
+cin >> m;
+for (int i = 0; i < n; i++)
+    cout << rand() %m+1 << endl;*/
+
+/*int n, l = 0;                                              //zad 16.
+cout << "podaj szczesliwa liczbe calkowita z zakresu od 1 do 10 ";
+cin >> n;
+if (n <= 10 && n >= 1) {
+    for (int i = 0; i < 10; i++) {
+        if (rand() % 10 + 1 == n)
+            l = l + 1;
+    }
+}
+else
+cout << "podana liczba nie jest liczba calkowita z zakresu od 1 do 10";
+cout << l;
+*/
 
 }
+
 
